@@ -1,6 +1,13 @@
-# 🔍 PlainSight
+<h1 align="center">
+  <img width="48" height="48" alt="PlainSight" src="https://github.com/user-attachments/assets/1f64abe5-336f-42f9-b167-2ae50c6bdcb2" />
+  PlainSight
+</h1>
 
-> **Stop skipping. Start understanding.**
+<p align="center">
+  <strong>Stop skipping. Start understanding.</strong>
+</p>
+
+
 >
 > A browser extension that detects privacy policies and terms of service on any website, then shows you an AI-powered summary card when you hover over the link. No copy-paste, no law degree, no cloud subscription required.
 
