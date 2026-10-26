@@ -2,12 +2,17 @@
   "version": 1,
   "title": "PlainSight",
   "summary": {
-    "en": "A browser extension that finds privacy policies and terms of service on any site and shows an AI summary card when you hover the link."
+    "en": "A Chrome extension that finds privacy policies and terms of service on any site and shows a plain-English AI summary card when you hover the link."
   },
   "role": { "en": "Product, design and full-stack development" },
-  "year": 2026,
+  "year": 2025,
   "category": "web",
-  "stack": ["TypeScript", "WXT", "React", "Hono", "Drizzle", "Next.js", "Turborepo"],
-  "links": { "live": "https://plainsight.dev" },
-  "machine": { "kind": "pipeline", "nodes": ["Policy link", "Content script", "Background worker", "AI engine", "Hover card"], "highlight": "Content script" }
+  "stack": ["JavaScript", "TypeScript", "Chrome MV3", "Hono", "Drizzle", "Next.js"],
+  "links": { "live": "https://plainsight.bakiwebdev.com" },
+  "cover": "cover.jpg",
+  "shots": [
+    { "file": "shots/01-how-it-works.jpg", "caption": { "en": "The four steps on the landing page: install, browse normally, hover to reveal, save and track." } },
+    { "file": "shots/02-popup-dashboard.jpg", "caption": { "en": "The extension popup dashboard: weekly activity, saved policies, a privacy health score and monitored sites. Sample data shown on the landing page." } }
+  ],
+  "machine": { "kind": "pipeline", "nodes": ["Policy link", "Content script", "Hono API", "LLM", "Hover card"], "highlight": "Hono API" }
 }
